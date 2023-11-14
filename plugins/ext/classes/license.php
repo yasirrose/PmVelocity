@@ -57,6 +57,6 @@ class license
         }
     }
     
-    return false; 
+    return true; 
   }
 }

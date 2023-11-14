@@ -44,6 +44,7 @@ function url_for($module, $prams = '', $hide_session = false)
 
     $scheme = (is_ssl() ? 'https://' : 'http://');
     $host = $_SERVER['HTTP_HOST'];
+    // $host = 'pm.velocitycloud.co';
 
     $self = pathinfo($_SERVER['PHP_SELF']);
     $self['dirname'] = str_replace("\\", "/", $self['dirname']??'');
